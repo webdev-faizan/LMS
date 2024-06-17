@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                   // or "ES2020", "ESNext"
+    "module": "ESNext",                // Use ESNext for ES6 module syntax
+    "strict": true,                    // Enable all strict type-checking options
+    "outDir": "build",                 // Output directory for compiled files
+    "rootDir": "./src",                // Root directory for input files
+    "esModuleInterop": true,           // Enables compatibility with CommonJS
+    "skipLibCheck": true,              // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,  // Enforce consistent file naming
+    "moduleResolution": "node",        // Node.js style module resolution
+    "allowSyntheticDefaultImports": true,  // Allow synthetic default imports for modules
+    "resolveJsonModule": true,         // Allows importing JSON files as modules
+    "sourceMap": true,                 // Generate source maps for debugging
+    "incremental": true,               // Enable incremental compilation
+    "noEmit": false,                   // Control emission of compiled files
+    "isolatedModules": true            // Ensure each file can be compiled independently
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts"]
+}
